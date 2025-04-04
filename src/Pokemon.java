@@ -4,7 +4,7 @@ public abstract class Pokemon {
     private int hp;
     private final String food;
     private final String sound;
-    // 6e final variable??
+    private final String type;
 
     public Pokemon (String name, int level, int hp, String food, String sound) {
         this.name = name;
@@ -36,5 +36,9 @@ public abstract class Pokemon {
 
     public void setHp(int hp) {
         this.hp = hp;
+    }
+
+    public String getType() {
+        return type;
     }
 }
