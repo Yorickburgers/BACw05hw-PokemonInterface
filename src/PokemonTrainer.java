@@ -2,7 +2,7 @@ import java.util.List;
 
 public class PokemonTrainer {
     private String name;
-    private List pokemons;
+    private List<Pokemon> pokemons;
 
     public PokemonTrainer(String name, List pokemons) {
         this.name = name;
@@ -17,7 +17,7 @@ public class PokemonTrainer {
         this.name = name;
     }
 
-    public List getPokemons() {
+    public List<Pokemon> getPokemons() {
         return pokemons;
     }
 
